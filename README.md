@@ -9,14 +9,13 @@ docker-compose up server
 
 And open the server url when prompted
 
-The following is the jupyter notebook output from one of the lessons in the tutorial
+The following is the notebook output from one of the lessons
+============================================================
 
-====================================================================================
 
 ```python
 %matplotlib inline
 ```
-
 
 Neural Networks
 ===============
