@@ -10,10 +10,10 @@ docker-compose up server
 And open the server url when prompted
 
 
+Sample Notebook 
+===============
 
-```python
-%matplotlib inline
-```
+
 
 Neural Networks
 ===============
