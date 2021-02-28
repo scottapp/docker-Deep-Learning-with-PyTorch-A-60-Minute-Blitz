@@ -9,8 +9,6 @@ docker-compose up server
 
 And open the server url when prompted
 
-The following is the notebook output from one of the lessons
-============================================================
 
 
 ```python
