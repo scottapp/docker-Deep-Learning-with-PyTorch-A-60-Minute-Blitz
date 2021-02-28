@@ -1,10 +1,17 @@
 # Deep Learning with PyTorch A 60 Minute Blitz tutorial in docker
 
-Start the tutorial jupyter server and open the server url when prompted
+The dockerfile will setup the necessary pytorch and jupyter notebook environment for the tutorial to run
+
+To start the tutorial jupyter server
 ```
 docker-compose up server
 ```
 
+And open the server url when prompted
+
+The following is the jupyter notebook output from one of the lessons in the tutorial
+
+===============
 
 ```python
 %matplotlib inline
