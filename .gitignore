@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+/workspace/Deep-Learning-with-PyTorch-A-60-Minute-Blitz/data
+/local/*
+
+.ipynb_checkpoints
+*.pth

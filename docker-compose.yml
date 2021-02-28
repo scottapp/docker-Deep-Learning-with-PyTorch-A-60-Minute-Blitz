@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+
+  base:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: pytorch-jupyter-base:0.1
+
+  server:
+    image: pytorch-jupyter-base:0.1
+    container_name: Deep-Learning-with-PyTorch-A-60-Minute-Blitz-jupyter-server
+    volumes:
+      - ./workspace:/home/jovyan/workspace
+    ports:
+      - "8888:8888"
