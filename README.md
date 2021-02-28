@@ -11,7 +11,7 @@ And open the server url when prompted
 
 The following is the jupyter notebook output from one of the lessons in the tutorial
 
-===============
+====================================================================================
 
 ```python
 %matplotlib inline
