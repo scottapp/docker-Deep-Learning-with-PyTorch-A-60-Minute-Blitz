@@ -154,16 +154,6 @@ net.zero_grad()
 out.backward(torch.randn(1, 10))
 ```
 
-<div class="alert alert-info"><h4>Note</h4><p>``torch.nn`` only supports mini-batches. The entire ``torch.nn``
-    package only supports inputs that are a mini-batch of samples, and not
-    a single sample.
-
-    For example, ``nn.Conv2d`` will take in a 4D Tensor of
-    ``nSamples x nChannels x Height x Width``.
-
-    If you have a single sample, just use ``input.unsqueeze(0)`` to add
-    a fake batch dimension.</p></div>
-
 Before proceeding further, let's recap all the classes you’ve seen so far.
 
 **Recap:**
